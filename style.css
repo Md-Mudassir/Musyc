@@ -51,7 +51,7 @@ header p {
 }
 
 .pads > div {
-  height: 100px;
+  height: 180px;
   width: 100px;
   flex: 1;
 }
