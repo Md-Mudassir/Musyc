@@ -11,6 +11,7 @@ window.addEventListener("load", () => {
     "#d3489e"
   ];
 
+  //on click play the sound
   pads.forEach((pad, index) => {
     pad.addEventListener("click", function() {
       sounds[index].currentTime = 0;
@@ -19,6 +20,7 @@ window.addEventListener("load", () => {
     });
   });
 
+  //create bubbles on click
   const createBubble = index => {
     const bubble = document.createElement("div");
     visual.appendChild(bubble);
